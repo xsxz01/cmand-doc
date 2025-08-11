@@ -19,7 +19,22 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: 'public/logo.png',
 
-    navbar: ['/', '/get-started'],
+    navbar: ['/'],
+    sidebar: [
+      {
+        text: '快速上手',
+        link: '/get-started',
+      },
+      {
+        text: '安装配置',
+        link: '/install',
+      },
+      {
+        text: '附录',
+        link: '/appendix',
+      }
+    ],
+
   }),
 
   bundler: viteBundler(),

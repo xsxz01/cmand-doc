@@ -1,23 +1,26 @@
-<template><div><h1 id="快速上手" tabindex="-1"><a class="header-anchor" href="#快速上手"><span>快速上手</span></a></h1>
-<p>This is a normal page, which contains VuePress basics.</p>
-<h2 id="pages" tabindex="-1"><a class="header-anchor" href="#pages"><span>Pages</span></a></h2>
-<p>You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.</p>
-<p>See <a href="https://vuejs.press/guide/page.html#routing" target="_blank" rel="noopener noreferrer">routing</a> for more details.</p>
-<h2 id="content" tabindex="-1"><a class="header-anchor" href="#content"><span>Content</span></a></h2>
-<p>Every markdown file <a href="https://vuejs.press/guide/page.html#content" target="_blank" rel="noopener noreferrer">will be rendered to HTML, then converted to a Vue SFC</a>.</p>
-<p>VuePress support basic markdown syntax and <a href="https://vuejs.press/guide/markdown.html#syntax-extensions" target="_blank" rel="noopener noreferrer">some extensions</a>, you can also <a href="https://vuejs.press/guide/markdown.html#using-vue-in-markdown" target="_blank" rel="noopener noreferrer">use Vue features</a> in it.</p>
-<h2 id="configuration" tabindex="-1"><a class="header-anchor" href="#configuration"><span>Configuration</span></a></h2>
-<p>VuePress use a <code v-pre>.vuepress/config.js</code>(or .ts) file as <a href="https://vuejs.press/guide/configuration.html#client-config-file" target="_blank" rel="noopener noreferrer">site configuration</a>, you can use it to config your site.</p>
-<p>For <a href="https://vuejs.press/guide/configuration.html#client-config-file" target="_blank" rel="noopener noreferrer">client side configuration</a>, you can create <code v-pre>.vuepress/client.js</code>(or .ts).</p>
-<p>Meanwhile, you can also add configuration per page with <a href="https://vuejs.press/guide/page.html#frontmatter" target="_blank" rel="noopener noreferrer">frontmatter</a>.</p>
-<h2 id="layouts-and-customization" tabindex="-1"><a class="header-anchor" href="#layouts-and-customization"><span>Layouts and customization</span></a></h2>
-<p>Here are common configuration controlling layout of <code v-pre>@vuepress/theme-default</code>:</p>
-<ul>
-<li><a href="https://vuejs.press/reference/default-theme/config.html#navbar" target="_blank" rel="noopener noreferrer">navbar</a></li>
-<li><a href="https://vuejs.press/reference/default-theme/config.html#sidebar" target="_blank" rel="noopener noreferrer">sidebar</a></li>
-</ul>
-<p>Check <a href="https://vuejs.press/reference/default-theme/" target="_blank" rel="noopener noreferrer">default theme docs</a> for full reference.</p>
-<p>You can <a href="https://vuejs.press/reference/default-theme/styles.html#style-file" target="_blank" rel="noopener noreferrer">add extra style</a> with <code v-pre>.vuepress/styles/index.scss</code> file.</p>
+<template><div><h2 id="介绍" tabindex="-1"><a class="header-anchor" href="#介绍"><span>介绍</span></a></h2>
+<p>C Mand 中文编程是脱胎于C++的一种中文的编程语言，<strong>Mandarin</strong> 原意即 <code v-pre>普通话</code>，也表明其想要成为中文编程领域的一种<code v-pre>普通话</code>的编程语言。（在本文档以后称其为<code v-pre>CMand</code>值得默认为该编程语言）</p>
+<p>为什么选择CMand？这大概是你看到这篇文章时候首先想到的问题。在中国大陆几十年间，中国人对中文编程时及其狂热的，期间诞生了大量中文编程语言，其中不乏流行化的，首先，最具代表性，也是最为成功的，就是易语言，其流行程度，生态活跃度，以及用户对其的执着，至今任然是相当火爆的，其拥有极其容易上手IDE且生态极其广泛，基本上想要做什么东西，都有着比较成熟的模块可以使用，到现在也是较为常用的。其次基本上都是次要的，比如火山，可以说是易语言的更加强大的版本，几乎解决了易语言的痛点，但仍然无法做到易语言这种地步，后续有很多，如炫彩界面库出的炫彩IDE，几乎将易语言的优势都添加了，使易语言用户可以轻松上手，同时也提供了极大的自由度，但仍然不温不火。</p>
+<blockquote>
+<p>以上只是本人对中文编程的简单总结，一些浅显的观点，不可作为参考依据，仅作为个人思考，欢迎交流。</p>
+</blockquote>
+<h2 id="快速上手" tabindex="-1"><a class="header-anchor" href="#快速上手"><span>快速上手</span></a></h2>
+<p>以下是使用CMand的简单示例：</p>
+<div class="code-block-title">
+  <div class="code-block-title-bar">
+    <span class="title" data-title="helloword.cm">helloword.cm</span>
+  </div>
+  <div class="language-csharp line-numbers-mode" data-highlighter="prismjs" data-ext="cs"><pre v-pre><code><span class="line">类库 x64\system</span>
+<span class="line"></span>
+<span class="line">整数 启动<span class="token punctuation">(</span><span class="token punctuation">)</span></span>
+<span class="line"><span class="token punctuation">{</span></span>
+<span class="line">    控制台<span class="token punctuation">.</span>打印输出换行<span class="token punctuation">(</span><span class="token string">"Hello World!"</span><span class="token punctuation">)</span></span>
+<span class="line">    控制台<span class="token punctuation">.</span>输入文本<span class="token punctuation">(</span><span class="token punctuation">)</span></span>
+<span class="line">    返回 <span class="token number">0</span></span>
+<span class="line"><span class="token punctuation">}</span></span>
+<span class="line"></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>
+</div><p>如何安装运行CMand，请查看<RouteLink to="/install.html">安装CMand</RouteLink>。</p>
 </div></template>
 
 

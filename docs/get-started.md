@@ -1,46 +1,27 @@
-# 快速上手
+## 介绍
 
-This is a normal page, which contains VuePress basics.
+C Mand 中文编程是脱胎于C++的一种中文的编程语言，**Mandarin** 原意即 `普通话`，也表明其想要成为中文编程领域的一种`普通话`的编程语言。（在本文档以后称其为`CMand`值得默认为该编程语言）
 
-## Pages
+为什么选择CMand？这大概是你看到这篇文章时候首先想到的问题。在中国大陆几十年间，中国人对中文编程时及其狂热的，期间诞生了大量中文编程语言，其中不乏流行化的，首先，最具代表性，也是最为成功的，就是易语言，其流行程度，生态活跃度，以及用户对其的执着，至今任然是相当火爆的，其拥有极其容易上手IDE且生态极其广泛，基本上想要做什么东西，都有着比较成熟的模块可以使用，到现在也是较为常用的。其次基本上都是次要的，比如火山，可以说是易语言的更加强大的版本，几乎解决了易语言的痛点，但仍然无法做到易语言这种地步，后续有很多，如炫彩界面库出的炫彩IDE，几乎将易语言的优势都添加了，使易语言用户可以轻松上手，同时也提供了极大的自由度，但仍然不温不火。
 
-You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.
+> 以上只是本人对中文编程的简单总结，一些浅显的观点，不可作为参考依据，仅作为个人思考，欢迎交流。
 
-See [routing][] for more details.
 
-## Content
+## 快速上手
 
-Every markdown file [will be rendered to HTML, then converted to a Vue SFC][content].
+以下是使用CMand的简单示例：
 
-VuePress support basic markdown syntax and [some extensions][synatex-extensions], you can also [use Vue features][vue-feature] in it.
+```csharp title="helloword.cm"
+类库 x64\system
 
-## Configuration
+整数 启动()
+{
+    控制台.打印输出换行("Hello World!")
+    控制台.输入文本()
+    返回 0
+}
+```
 
-VuePress use a `.vuepress/config.js`(or .ts) file as [site configuration][config], you can use it to config your site.
+如何安装运行CMand，请查看[安装CMand][]。
 
-For [client side configuration][client-config], you can create `.vuepress/client.js`(or .ts).
-
-Meanwhile, you can also add configuration per page with [frontmatter][].
-
-## Layouts and customization
-
-Here are common configuration controlling layout of `@vuepress/theme-default`:
-
-- [navbar][]
-- [sidebar][]
-
-Check [default theme docs][default-theme] for full reference.
-
-You can [add extra style][style] with `.vuepress/styles/index.scss` file.
-
-[routing]: https://vuejs.press/guide/page.html#routing
-[content]: https://vuejs.press/guide/page.html#content
-[synatex-extensions]: https://vuejs.press/guide/markdown.html#syntax-extensions
-[vue-feature]: https://vuejs.press/guide/markdown.html#using-vue-in-markdown
-[config]: https://vuejs.press/guide/configuration.html#client-config-file
-[client-config]: https://vuejs.press/guide/configuration.html#client-config-file
-[frontmatter]: https://vuejs.press/guide/page.html#frontmatter
-[navbar]: https://vuejs.press/reference/default-theme/config.html#navbar
-[sidebar]: https://vuejs.press/reference/default-theme/config.html#sidebar
-[default-theme]: https://vuejs.press/reference/default-theme/
-[style]: https://vuejs.press/reference/default-theme/styles.html#style-file
+[安装CMand]: ./install.md
