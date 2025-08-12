@@ -1,5 +1,5 @@
-import comp from "C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/404.html.vue"
-const data = JSON.parse("{\"path\":\"/404.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"layout\":\"NotFound\"},\"headers\":[],\"git\":{},\"filePathRelative\":null}")
+import comp from "C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/operator.html.vue"
+const data = JSON.parse("{\"path\":\"/cmand/operator.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{},\"filePathRelative\":\"cmand/operator.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

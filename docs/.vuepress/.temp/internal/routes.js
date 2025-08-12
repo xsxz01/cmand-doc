@@ -1,11 +1,29 @@
 export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
-  ["/appendix.html", { loader: () => import(/* webpackChunkName: "appendix.html" */"E:/Workspace/cmand-doc/docs/.vuepress/.temp/pages/appendix.html.js"), meta: {"title":""} }],
-  ["/get-started.html", { loader: () => import(/* webpackChunkName: "get-started.html" */"E:/Workspace/cmand-doc/docs/.vuepress/.temp/pages/get-started.html.js"), meta: {"title":""} }],
-  ["/install.html", { loader: () => import(/* webpackChunkName: "install.html" */"E:/Workspace/cmand-doc/docs/.vuepress/.temp/pages/install.html.js"), meta: {"title":""} }],
-  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"E:/Workspace/cmand-doc/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"文档"} }],
-  ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"E:/Workspace/cmand-doc/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
+  ["/appendix.html", { loader: () => import(/* webpackChunkName: "appendix.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/appendix.html.js"), meta: {"title":""} }],
+  ["/get-started.html", { loader: () => import(/* webpackChunkName: "get-started.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/get-started.html.js"), meta: {"title":""} }],
+  ["/install.html", { loader: () => import(/* webpackChunkName: "install.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/install.html.js"), meta: {"title":""} }],
+  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"文档"} }],
+  ["/advanced/", { loader: () => import(/* webpackChunkName: "advanced_index.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/advanced/index.html.js"), meta: {"title":""} }],
+  ["/advanced/test.html", { loader: () => import(/* webpackChunkName: "advanced_test.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/advanced/test.html.js"), meta: {"title":""} }],
+  ["/cmand/class.html", { loader: () => import(/* webpackChunkName: "cmand_class.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/class.html.js"), meta: {"title":""} }],
+  ["/cmand/collection.html", { loader: () => import(/* webpackChunkName: "cmand_collection.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/collection.html.js"), meta: {"title":""} }],
+  ["/cmand/comment.html", { loader: () => import(/* webpackChunkName: "cmand_comment.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/comment.html.js"), meta: {"title":""} }],
+  ["/cmand/constant.html", { loader: () => import(/* webpackChunkName: "cmand_constant.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/constant.html.js"), meta: {"title":""} }],
+  ["/cmand/datatype.html", { loader: () => import(/* webpackChunkName: "cmand_datatype.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/datatype.html.js"), meta: {"title":""} }],
+  ["/cmand/error-handling.html", { loader: () => import(/* webpackChunkName: "cmand_error-handling.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/error-handling.html.js"), meta: {"title":""} }],
+  ["/cmand/expression.html", { loader: () => import(/* webpackChunkName: "cmand_expression.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/expression.html.js"), meta: {"title":""} }],
+  ["/cmand/flow-control.html", { loader: () => import(/* webpackChunkName: "cmand_flow-control.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/flow-control.html.js"), meta: {"title":""} }],
+  ["/cmand/function.html", { loader: () => import(/* webpackChunkName: "cmand_function.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/function.html.js"), meta: {"title":""} }],
+  ["/cmand/input.html", { loader: () => import(/* webpackChunkName: "cmand_input.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/input.html.js"), meta: {"title":""} }],
+  ["/cmand/loop.html", { loader: () => import(/* webpackChunkName: "cmand_loop.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/loop.html.js"), meta: {"title":""} }],
+  ["/cmand/module.html", { loader: () => import(/* webpackChunkName: "cmand_module.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/module.html.js"), meta: {"title":""} }],
+  ["/cmand/operator.html", { loader: () => import(/* webpackChunkName: "cmand_operator.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/operator.html.js"), meta: {"title":""} }],
+  ["/cmand/stdout.html", { loader: () => import(/* webpackChunkName: "cmand_stdout.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/stdout.html.js"), meta: {"title":""} }],
+  ["/cmand/string.html", { loader: () => import(/* webpackChunkName: "cmand_string.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/string.html.js"), meta: {"title":""} }],
+  ["/cmand/variable.html", { loader: () => import(/* webpackChunkName: "cmand_variable.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/variable.html.js"), meta: {"title":""} }],
+  ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
 
 if (import.meta.webpackHot) {

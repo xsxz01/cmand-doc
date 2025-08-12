@@ -12,22 +12,18 @@ actions:
     type: secondary
 
 features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+  - title: 全中文编程
+    details: 接近于口语化的中文表达，更符合中式思维。
+  - title: 高效
+    details: 简化Windows应用的开发方式，提高开发效率。
+  - title: 高性能
+    details: 脱胎于C++的编程语言，拥有极高的执行效率。
+  - title: 模块化
+    details: 提供便捷的模块化方式，轻松构架大型程序。
+  - title: 0成本兼容C/C++生态
+    details: C/C++生态的库可以与CMand直接混用，无需额外成本。
+  - title: 打包便捷
+    details: 轻松打包成桌面级应用，无需额外配置，一键编译。
 
 footer: MIT Licensed | Copyright © 2018-present VuePress Community
----
 
-This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
-
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
