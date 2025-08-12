@@ -8,7 +8,7 @@ actions:
     type: primary
 
   - text: 介绍
-    link: https://vuejs.press/guide/introduction.html
+    link: http://localhost:8080/get-started.html#%E4%BB%8B%E7%BB%8D
     type: secondary
 
 features:

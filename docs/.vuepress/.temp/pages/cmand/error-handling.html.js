@@ -1,5 +1,5 @@
 import comp from "C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/error-handling.html.vue"
-const data = JSON.parse("{\"path\":\"/cmand/error-handling.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{},\"filePathRelative\":\"cmand/error-handling.md\"}")
+const data = JSON.parse("{\"path\":\"/cmand/error-handling.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1754964986000,\"contributors\":[{\"name\":\"Pang\",\"username\":\"Pang\",\"email\":\"pangyuyu@illusiontech.cn\",\"commits\":2,\"url\":\"https://github.com/Pang\"}],\"changelog\":[{\"hash\":\"6e6bedef3078ed9ef09906e2334b57833995ba14\",\"time\":1754964986000,\"email\":\"pangyuyu@illusiontech.cn\",\"author\":\"Pang\",\"message\":\"完成基本的文档内容框架（基础部分）\"},{\"hash\":\"5fe637436000236e4547e8302f6bfd63dee00017\",\"time\":1754889986000,\"email\":\"pangyuyu@illusiontech.cn\",\"author\":\"Pang\",\"message\":\"初始化仓库\"}]},\"filePathRelative\":\"cmand/error-handling.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
