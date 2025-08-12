@@ -1,7 +1,7 @@
 ---
 home: true
 title: 文档
-heroImage: public/logo.png
+heroImage: logo.png
 actions:
   - text: 快速上手
     link: /get-started.html
