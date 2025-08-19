@@ -7,6 +7,7 @@ export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"文档"} }],
   ["/advanced/", { loader: () => import(/* webpackChunkName: "advanced_index.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/advanced/index.html.js"), meta: {"title":"高级主题"} }],
   ["/advanced/test.html", { loader: () => import(/* webpackChunkName: "advanced_test.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/advanced/test.html.js"), meta: {"title":""} }],
+  ["/cmand/app-lifecycle.html", { loader: () => import(/* webpackChunkName: "cmand_app-lifecycle.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/app-lifecycle.html.js"), meta: {"title":""} }],
   ["/cmand/class.html", { loader: () => import(/* webpackChunkName: "cmand_class.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/class.html.js"), meta: {"title":""} }],
   ["/cmand/collection.html", { loader: () => import(/* webpackChunkName: "cmand_collection.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/collection.html.js"), meta: {"title":""} }],
   ["/cmand/comment.html", { loader: () => import(/* webpackChunkName: "cmand_comment.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/comment.html.js"), meta: {"title":""} }],
@@ -24,7 +25,6 @@ export const routes = Object.fromEntries([
   ["/cmand/string.html", { loader: () => import(/* webpackChunkName: "cmand_string.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/string.html.js"), meta: {"title":""} }],
   ["/cmand/variable.html", { loader: () => import(/* webpackChunkName: "cmand_variable.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/variable.html.js"), meta: {"title":""} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
-  ["/cmand/app-lifecycle.html", { loader: () => import(/* webpackChunkName: "cmand_app-lifecycle.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/app-lifecycle.html.js"), meta: {"title":""} }],
 ]);
 
 if (import.meta.webpackHot) {

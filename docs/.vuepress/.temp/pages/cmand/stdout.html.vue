@@ -68,9 +68,42 @@
 <span class="line"><span class="token punctuation">}</span></span>
 <span class="line"></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_3-标准输入" tabindex="-1"><a class="header-anchor" href="#_3-标准输入"><span>3. 标准输入</span></a></h3>
+<p>标准输入函数用于从控制台获取用户输入的文本内容，其函数原型为</p>
 <div class="language-cpp line-numbers-mode" data-highlighter="prismjs" data-ext="cpp"><pre v-pre><code><span class="line">std<span class="token double-colon punctuation">::</span>string 标准输入<span class="token punctuation">(</span><span class="token keyword">bool</span> R <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span>
 <span class="line"></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>函数参数为一个布尔值，表示是否显示输入提示符，默认为真。函数返回值为用户输入的文本内容。例如</p>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p><strong>参数</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R</td>
+<td>bool</td>
+<td>是否回显，默认为真</td>
+</tr>
+</tbody>
+</table>
+<p><strong>返回值</strong></p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>std::string</td>
+<td>用户输入的文本内容</td>
+</tr>
+</tbody>
+</table>
+<p>函数参数为一个布尔值，表示是否回显，默认为真。函数返回值为用户输入的文本内容。例如</p>
 <div class="language-cpp line-numbers-mode" data-highlighter="prismjs" data-ext="cpp"><pre v-pre><code><span class="line">std<span class="token double-colon punctuation">::</span>string 输入 <span class="token operator">=</span> 标准输入<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span>
 <span class="line"></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h2 id="控制台对象" tabindex="-1"><a class="header-anchor" href="#控制台对象"><span>控制台对象</span></a></h2>
