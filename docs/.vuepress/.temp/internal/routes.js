@@ -24,6 +24,7 @@ export const routes = Object.fromEntries([
   ["/cmand/string.html", { loader: () => import(/* webpackChunkName: "cmand_string.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/string.html.js"), meta: {"title":""} }],
   ["/cmand/variable.html", { loader: () => import(/* webpackChunkName: "cmand_variable.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/variable.html.js"), meta: {"title":""} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
+  ["/cmand/app-lifecycle.html", { loader: () => import(/* webpackChunkName: "cmand_app-lifecycle.html" */"C:/Sheencity/Workspace/cmand-doc/docs/.vuepress/.temp/pages/cmand/app-lifecycle.html.js"), meta: {"title":""} }],
 ]);
 
 if (import.meta.webpackHot) {

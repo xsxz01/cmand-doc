@@ -36,6 +36,10 @@ export default defineUserConfig({
         link: "/install",
       },
       {
+        text: "应用生命周期",
+        link: "/cmand/app-lifecycle",
+      },
+      {
         text: "注释",
         link: "/cmand/comment",
       },
