@@ -1,7 +1,7 @@
 import { defaultTheme } from "@vuepress/theme-default";
 import { defineUserConfig } from "vuepress";
 import { viteBundler } from "@vuepress/bundler-vite";
-import tailwindcss from '@tailwindcss/postcss'
+import tailwindcss from "@tailwindcss/postcss";
 
 export default defineUserConfig({
   lang: "zh-CN",
@@ -119,6 +119,6 @@ export default defineUserConfig({
           plugins: [tailwindcss()],
         },
       },
-    }
+    },
   }),
 });

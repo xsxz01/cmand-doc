@@ -1,5 +1,5 @@
 import comp from "D:/Workpace/cmand-doc/docs/.vuepress/.temp/pages/compile.html.vue"
-const data = JSON.parse("{\"path\":\"/compile.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"layout\":\"CustomLayout\"},\"headers\":[],\"git\":{},\"filePathRelative\":\"compile.md\"}")
+const data = JSON.parse("{\"path\":\"/compile.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"layout\":\"CustomLayout\"},\"headers\":[],\"git\":{\"updatedTime\":1757209425000,\"contributors\":[{\"name\":\"Pang\",\"username\":\"Pang\",\"email\":\"qq1502724957@live.com\",\"commits\":1,\"url\":\"https://github.com/Pang\"}],\"changelog\":[{\"hash\":\"d2bf9c8d990614ce4ead634c8cd98c97ac9694e2\",\"time\":1757209425000,\"email\":\"qq1502724957@live.com\",\"author\":\"Pang\",\"message\":\"集成tailwindcss\"}]},\"filePathRelative\":\"compile.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

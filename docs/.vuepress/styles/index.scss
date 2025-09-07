@@ -1,2 +1,19 @@
-@tailwind components;
-@tailwind utilities;
+// @use "tailwindcss";
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+
+
+/* badge */
+@mixin badgeCommon {
+    margin-left: .2em;
+    padding: 0 .5em;
+    color: white;
+    border-radius: 5%;
+}
+
+span[alt="blue"] {
+    @include badgeCommon();
+    background-image: linear-gradient(to right, #00c6fb 0%, #005bea 100%);
+}

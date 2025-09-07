@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
     content: [
-      //./**/*.md",  不建议使用通配符，会消耗性能
+      "./**/*.md",  // 不建议使用通配符，会消耗性能
       "./docs/about.md",
       "./docs/.vuepress/layouts/NotFound.vue",
       "./.vuepress/**/*.{vue,js,ts,jsx,tsx}",
