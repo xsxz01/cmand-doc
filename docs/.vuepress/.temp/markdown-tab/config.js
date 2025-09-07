@@ -1,6 +1,6 @@
-import { CodeTabs } from "C:/Sheencity/Workspace/cmand-doc/node_modules/.pnpm/@vuepress+plugin-markdown-t_417bbffdd265ef2f2a3ac165d2a1e1c0/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/CodeTabs.js";
-import { Tabs } from "C:/Sheencity/Workspace/cmand-doc/node_modules/.pnpm/@vuepress+plugin-markdown-t_417bbffdd265ef2f2a3ac165d2a1e1c0/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/Tabs.js";
-import "C:/Sheencity/Workspace/cmand-doc/node_modules/.pnpm/@vuepress+plugin-markdown-t_417bbffdd265ef2f2a3ac165d2a1e1c0/node_modules/@vuepress/plugin-markdown-tab/lib/client/styles/vars.css";
+import { CodeTabs } from "D:/Workpace/cmand-doc/node_modules/.pnpm/@vuepress+plugin-markdown-t_9148936413d0ee86c2304b5d831b6a23/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/CodeTabs.js";
+import { Tabs } from "D:/Workpace/cmand-doc/node_modules/.pnpm/@vuepress+plugin-markdown-t_9148936413d0ee86c2304b5d831b6a23/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/Tabs.js";
+import "D:/Workpace/cmand-doc/node_modules/.pnpm/@vuepress+plugin-markdown-t_9148936413d0ee86c2304b5d831b6a23/node_modules/@vuepress/plugin-markdown-tab/lib/client/styles/vars.css";
 
 export default {
   enhance: ({ app }) => {
