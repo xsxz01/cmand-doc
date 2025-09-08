@@ -7,8 +7,8 @@ actions:
     link: /get-started.html
     type: primary
 
-  - text: 介绍
-    link: http://localhost:8080/get-started.html#%E4%BB%8B%E7%BB%8D
+  - text: 下载
+    link: http://localhost:8080/compile.html
     type: secondary
 
 features:
