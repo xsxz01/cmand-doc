@@ -22,6 +22,8 @@ export default defineUserConfig({
 
     navbar: [
       "/",
+      "/download",
+      "/about",
       {
         text: "高级主题",
         link: "/advanced/" 
