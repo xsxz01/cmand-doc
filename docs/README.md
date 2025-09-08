@@ -8,7 +8,7 @@ actions:
     type: primary
 
   - text: 下载
-    link: http://localhost:8080/compile.html
+    link: /compile.html
     type: secondary
 
 features:
